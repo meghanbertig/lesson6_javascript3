@@ -144,7 +144,7 @@ function createEventListeners() {
 
  //add an event handler to the specified document element (rightarrow)
  //the rightArrow() function will executed when user clicks the right navigation arrow
- rightarrow.addEventListener("click", rightArrow, false);
+    rightarrow.addEventListener("click", rightArrow, false);
  
  //declare a variable for the element fiveButton
     var showAllButton = document.querySelector("#fiveButton p");
